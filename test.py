@@ -117,9 +117,9 @@ def main():
         [["10000"]]
     )
 
-    run_sql_file('2-optimalize-queries.sql')
+    run_sql_file('2-optimize-queries.sql')
     test_sql_file(
-        'test-2-optimalize-queries.sql',
+        'test-2-optimize-queries.sql',
         ['table_name', 'index_name', 'column_names'],
         [
             ['mentor_candidates', 'mentor_candidates_birth_year_city_idx', 'city, birth_year'],
